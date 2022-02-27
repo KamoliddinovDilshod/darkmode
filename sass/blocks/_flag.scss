@@ -1,0 +1,95 @@
+.flag__hero{
+  background-color: #F2F2F2;
+  padding-top: 170px;
+  padding-bottom: 270px;
+}
+
+.flag__link{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: 130px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.293139);
+  border-radius: 6px;
+  margin-bottom: 91px;
+  padding: 5px 32px;
+}
+
+.flag__link-text{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111517;
+  margin-left: 10px;
+}
+
+.flag__box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.flag__img{
+  position: sticky;
+  border-radius: 5px;
+  margin-right: 120px;
+}
+
+.flag__big-list{
+  width: 207px;
+  margin: 0;
+  margin-right: 141px;
+  padding: 0;
+}
+
+
+.flag__big-lists{
+  width: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.flag__item{
+  list-style-type: none;
+}
+
+.flag__title{
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  color: #111517;
+  margin: 0;
+  margin-bottom: 23px;
+}
+
+.flag__trunk{
+  position: absolute;
+  top: 340px;
+  left: 680px;
+  align-items: center;
+}
+
+.flag__topic{
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111517;
+  margin-right: 15px;
+}
+
+.flag__cunt{
+  display: inline-block;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.104931);
+  border-radius: 2px;
+  color: #111517;
+  text-decoration: none;
+  padding: 5px 27px;
+  margin-right: 10px;
+}

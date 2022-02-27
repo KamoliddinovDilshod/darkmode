@@ -4,9 +4,321 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Where in the world?</title>
 </head>
-<body>
+<body class="dark-mody">
+  <header class="site__header">
+    <div class="container">
+      <div class="header__box">
+        <h1 class="header__title">
+          <a class="header__subblink" href="./index.html">
+            Where in the world?
+          </a>
+        </h1>
+        <button type="button" id="header__button">
+          <img src="./images/Path-black.svg" alt="Dark Mode">
+          Dark Mode
+        </button>
+      </div>
+    </div>
+  </header>
   
+  <main class="site__main">
+    <section class="hero">
+      <div class="container">
+        <h2 class="visually-hidden">
+          Many country flags
+        </h2>
+        <form class="hero__form" action="https://echo.htmlacademy.ru/courses" method="post">
+          <input class="hero__input" type="search" placeholder="Search for a country…" name="user__search" aria-label="Search for a country…">
+          <select class="hero__select" name="user__select">
+            <option class="hero__option" value="Filter by Region" selected disabled>Filter by Region</option>
+            <option class="hero__options" value="Africa">Africa</option>
+            <option class="hero__options" value="America">America</option>
+            <option class="hero__options" value="Asia">Asia</option>
+            <option class="hero__options" value="Europe">Europe</option>
+            <option class="hero__options" value="Oceania">Oceania</option>
+          </select>
+        </form>
+        <ul class="hero__list">
+          <li class="hero__item">
+            <a class="hero__link" href="./flag.html">
+              <img class="hero__img" src="./images/germany.svg" alt="Germany flag">
+              <div class="hero__box">
+                <h3 class="hero__subtitle">
+                  Germany
+                </h3>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Population:
+                  </span>
+                  <span class="hero__subtext">
+                    81,770,900
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Region: 
+                  </span>
+                  <span class="hero__subtext">
+                    Europe
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Capital: 
+                  </span>
+                  <span class="hero__subtext">
+                    Berlin
+                  </span>
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a class="hero__link" href="./flag.html">
+              <img class="hero__img" src="./images/america.svg" alt="USA flag">
+              <div class="hero__box">
+                <h3 class="hero__subtitle">
+                  United States of America
+                </h3>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Population: 
+                  </span>
+                  <span class="hero__subtext">
+                    323,947,000
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Region:
+                  </span>
+                  <span class="hero__subtext">
+                    Americas
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Capital: 
+                  </span>
+                  <span class="hero__subtext">
+                    Washington, D.C.
+                  </span>
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a class="hero__link" href="./flag.html">
+              <img class="hero__img" src="./images/brasil.svg" alt="Brasil flag">
+              <div class="hero__box">
+                <h3 class="hero__subtitle">
+                  Brazil
+                </h3>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Population:
+                  </span>
+                  <span class="hero__subtext">
+                    206,135,893
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Region: 
+                  </span>
+                  <span class="hero__subtext">
+                    Americas
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Capital: 
+                  </span>
+                  <span class="hero__subtext">
+                    Brasília
+                  </span>
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a class="hero__link" href="./flag.html">
+              <img class="hero__img" src="./images/iceland.svg" alt="Iceland flag">
+              <div class="hero__box">
+                <h3 class="hero__subtitle">
+                  Iceland
+                </h3>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Population:
+                  </span>
+                  <span class="hero__subtext">
+                    334,300
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Region: 
+                  </span>
+                  <span class="hero__subtext">
+                    Region: Europe
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Capital: 
+                  </span>
+                  <span class="hero__subtext">
+                    Reykjavík
+                  </span>
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a class="hero__link" href="./flag.html">
+              <img class="hero__img" src="./images/afganistan.svg" alt="Afghanistan flag">
+              <div class="hero__box">
+                <h3 class="hero__subtitle">
+                  Afghanistan
+                </h3>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Population:
+                  </span>
+                  <span class="hero__subtext">
+                    27,657,145
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Region: 
+                  </span>
+                  <span class="hero__subtext">
+                    Asia
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Capital: 
+                  </span>
+                  <span class="hero__subtext">
+                    Kabul
+                  </span>
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a class="hero__link" href="./flag.html">
+              <img class="hero__img" src="./images/aland.svg" alt="Åland Islands flag">
+              <div class="hero__box">
+                <h3 class="hero__subtitle">
+                  Åland Islands
+                </h3>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Population:
+                  </span>
+                  <span class="hero__subtext">
+                    28,875
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Region: 
+                  </span>
+                  <span class="hero__subtext">
+                    Europe
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Capital: 
+                  </span>
+                  <span class="hero__subtext">
+                    Mariehamn
+                  </span>
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a class="hero__link" href="./flag.html">
+              <img class="hero__img" src="./images/albania.svg" alt="Albania flag">
+              <div class="hero__box">
+                <h3 class="hero__subtitle">
+                  Albania
+                </h3>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Population:
+                  </span>
+                  <span class="hero__subtext">
+                    2,886,026
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Region: 
+                  </span>
+                  <span class="hero__subtext">
+                    Europe
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Capital: 
+                  </span>
+                  <span class="hero__subtext">
+                    Tirana
+                  </span>
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a class="hero__link" href="./flag.html">
+              <img class="hero__img" src="./images/algeria.svg" alt="Algeria flag">
+              <div class="hero__box">
+                <h3 class="hero__subtitle">
+                  Algeria
+                </h3>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Population:
+                  </span>
+                  <span class="hero__subtext">
+                    40,400,000
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Region: 
+                  </span>
+                  <span class="hero__subtext">
+                    Africa
+                  </span>
+                </p>
+                <p class="hero__text">
+                  <span class="hero__span">
+                    Capital: 
+                  </span>
+                  <span class="hero__subtext">
+                    Algiers
+                  </span>
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  
+  <script src="./js/main.js"></script>
 </body>
 </html>
